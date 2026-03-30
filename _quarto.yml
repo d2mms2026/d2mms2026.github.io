@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "d2mms2026"
+  description: "Summer School"
+  site-url: "https://d2mms2026.github.io/"
+  repo-url: "https://github.com/d2mms2026/d2mms2026.github.io"
+  
+  page-footer:
+    background: dark
+    foreground: light
+    center: |
+      © COPYRIGHT 2025-26 ALL RIGHTS RESERVED, IIT(ISM) DHANBAD
+
+  
+  
+format:
+  html:
+    theme:
+      light: flatly
+    include-before-body: header.html
+    css: styles.css
+    toc: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    theme-toggle: true 
+
+
+
+    
+execute:
+  freeze: auto
+
+editor: visual

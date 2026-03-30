@@ -1,0 +1,15 @@
+---
+format:
+  html:
+    theme:
+      light: flatly
+    css: styles.css
+    page-layout: full
+    toc: false
+---
+
+::: page-header
+# Call for Posters
+:::
+
+The conference invites abstract from faculty, students,scientists, researchers and industry professionals. Each abstract should be 200-250 words, presenting original academic or industrial research. Submissions should ideally align with the key themes and relevant areas outlined, though other topics are also welcome.

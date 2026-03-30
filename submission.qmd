@@ -1,0 +1,12 @@
+---
+format:
+  html:
+    theme:
+      light: flatly
+    css: styles.css
+    page-layout: full
+    toc: false
+---
+
+Submission details will go here. . .
+

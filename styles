@@ -1,0 +1,905 @@
+/* "Important Dates" Sidebar Box */
+
+.date-box {
+  background-color: #F5F5DC;
+  border: 1px solid #000;
+  padding: 15px;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  
+  h3 {
+    color: #000;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 0;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    
+    li {
+      margin-bottom: 10px;
+      font-size: 1rem;
+      
+      strong {
+        display: block;
+        color: #000;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+/* =========================================================
+   1. FONT IMPORTS (Cleaned up)
+   ========================================================= */
+/* Playfair Display for Headings (Luxury feel) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap');
+/* Lato for Navbar text (Clean, modern) */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+/*For Body text*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+/* =========================================================
+   2. BASE TYPOGRAPHY
+   ========================================================= */
+body {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  color: #000;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', serif;
+  font-weight: 700;
+}
+
+
+
+/* --- Custom Navbar Styling --- */
+
+
+.custom-navbar {
+  margin-top: 25px; /* Space between subtitle and menu */
+  margin-bottom: 40px;
+  text-align: center; /* Center the menu items */
+}
+
+.nav-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  display: inline-block; /* Allows centering */
+}
+
+.nav-list > li {
+  display: inline-block; /* Makes list horizontal */
+  margin: 0 15px; /* Spacing between items */
+  position: relative; /* Needed for dropdown positioning */
+}
+
+.nav-list > li > a, .dropbtn {
+  text-decoration: none;
+  color: #000; /* Dark grey text */
+  font-size: 1.05rem;
+  font-weight: 500;
+  padding-bottom: 5px;
+  font-family: "Lato", sans-serif;
+  transition: color 0.3s ease;
+}
+
+.nav-list > li > a:hover, .dropbtn:hover {
+  color: #39E6D8; /* Blue on hover */
+  border-bottom: 2px solid #e63946; /* Red underline effect */
+}
+
+
+/* --- Dropdown CSS --- */
+
+
+.dropdown-content {
+  display: none; /* Hidden by default */
+  position: absolute;
+  background-color: #fff;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+  z-index: 1000;
+  text-align: left;
+  border-radius: 4px;
+  top: 100%; /* Positions it right below the "Authors" text */
+  left: 0;
+}
+
+.dropdown-content a {
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 0.95rem;
+}
+
+.dropdown-content a:hover {
+  background-color: #9EE639;
+  color: #000;
+}
+
+
+
+
+/* Show the dropdown on hover */
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.header-main-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+
+.header-subtitle {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #000000;
+}
+
+/* --- Justify Text Utility --- */
+.justify-text p {
+  text-align: justify;
+  text-justify: inter-word; /* Ensures cleaner spacing between words */
+}
+
+
+
+
+
+/* --- Index Page Enhancements --- */
+
+/* Hero Image Wrapper */
+.hero-banner-wrapper {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  margin-top: 1rem;
+}
+
+.hero-gif {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Very light background for alternating sections */
+.bg-very-light {
+  background-color: #fcfcfd;
+  border: 1px solid #f0f0f0;
+}
+
+/* Modern, Minimal Takeaway Cards */
+.takeaway-card {
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-top: 4px solid #003366; /* Accent color matching IIT ISM theme */
+  border-radius: 8px;
+  padding: 35px 25px;
+  height: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+}
+
+.takeaway-card:hover {
+  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+  transform: translateY(-5px);
+  border-color: #dcdcdc;
+}
+
+.takeaway-icon {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+/* Clean Unordered Lists */
+.feature-list {
+  padding-left: 1.2rem;
+}
+
+.feature-list li {
+  margin-bottom: 0.8rem;
+}
+
+/* Important Dates Timeline Styling */
+.timeline-card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  border: 1px solid #f0f0f0;
+}
+
+.timeline-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.timeline-list li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  border-left: 2px solid #cbd5e1;
+}
+
+.timeline-list li::before {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #003366;
+}
+
+.timeline-list li span {
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+/* Button Hover Lift */
+.btn-hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 51, 102, 0.2) !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* --- Conference Theme Pills --- */
+
+
+.theme-pill {
+  background-color: #fdf2f0; /* Pale pink/peach color */
+  color: #660000;            /* Dark red text */
+  font-weight: 700;          /* Bold font */
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  
+  /* Shape & Spacing */
+  border-radius: 50px;       /* Makes it pill-shaped */
+  padding: 15px 20px;
+  margin-bottom: 20px;       /* Space between rows */
+  width: 100%;               /* Fill the column width */
+  
+  /* Visual Depth */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow */
+  border: 1px solid rgba(0,0,0,0.05);
+  
+  /* Flexbox to vertically center the text if it wraps */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;          /* Ensures uniform height */
+  
+  transition: transform 0.2s; /* Smooth hover animation */
+}
+
+/* Optional: Slight pop effect on hover */
+.theme-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  background-color: #F5FDF0;
+}
+
+
+
+
+/* --- Speaker List Styling --- */
+
+/* 1. Style the Main Headings (e.g., "Keynote Speakers") */
+h2 {
+  color: #000; /* Dark red to match your reference images */
+  text-align: center;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* 2. Remove default bullet points inside the grid columns */
+.grid ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* 3. Turn each list item (Speaker) into a "Card" */
+.grid li {
+  background-color: #F5FFFA;
+  border-left: 2px solid #e63946; /* Red accent bar on the left */
+  padding: 15px 20px;
+  margin-bottom: 15px; /* Space between cards */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Soft shadow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  line-height: 1;
+}
+
+/* 4. Add a hover effect for interactivity */
+.grid li:hover {
+  transform: translateY(-5px); /* Moves up slightly */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* Shadow grows */
+  background-color: #fdfdfd;
+}
+
+/* 5. Style the Name (Bold text) */
+.grid li strong {
+  display: block; /* Puts the name on its own line above affiliation */
+  color: #003366; /* Deep blue for the name */
+  font-size: 1.1rem;
+  margin-bottom: 1px;
+}
+
+
+
+
+/* --- The Card Style --- */
+.card-box {
+  background-color: #F4EBE2;
+  padding: 40px;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08); /* Soft shadow */
+  border: 1px solid rgba(0,0,0,0.02);
+  height: 100%; /* Ensures equal height */
+}
+
+.card-header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+}
+
+/* --- Left Card Content (Icons) --- */
+.info-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #800000; 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.info-item strong {
+  display: block;
+  font-size: 1.1rem;
+  color: #000;
+}
+
+.info-item p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.map-wrapper {
+  border-radius: 5px;
+  opacity: 1.0;
+  border: 3px solid #800000;
+}
+
+/* --- Right Card Content (Form) --- */
+.custom-form input,
+.custom-form textarea {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 6px;
+  background-color: #fff; /* Light grey input background */
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.custom-form input:focus,
+.custom-form textarea:focus {
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 0 0 2px #eee; /* Yellow glow on focus */
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 50px; /* Pill shape button */
+  background-color: #800000; /* Yellow Button */
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: #C10B29;
+  transform: translateY(-2px);
+}
+
+
+
+/* --- Registration Table Styling --- */
+
+/* 1. Container Styling */
+.fee-table {
+  overflow-x: auto; /* Responsive scrolling on mobile */
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08); /* Soft shadow for depth */
+}
+
+/* 2. Target the actual Table element */
+.fee-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  font-size: 1rem;
+  background-color: #ffffff;
+}
+
+/* 3. Header Styling (Deep Blue Background) */
+.fee-table thead tr {
+  background-color: #003366; /* Conference Theme Blue */
+  color: #ffffff;
+  text-align: center;
+}
+
+.fee-table th {
+  padding: 18px 15px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  border: none; /* Removes default borders */
+}
+
+/* 4. Body Row Styling */
+.fee-table tbody tr {
+  border-bottom: 1px solid #eeeeee;
+  transition: all 0.1s ease;
+}
+
+/* Zebra Striping: Every even row gets a light grey background */
+.fee-table tbody tr:nth-of-type(all) {
+  background-color: #f8f9fa;
+}
+
+/* Hover Effect: Row gets slightly darker on mouse over */
+.fee-table tbody tr:hover {
+  background-color: #eef2f7;
+  transform: scale(1.005); /* Subtle pop effect */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* 5. Cell Styling */
+.fee-table td {
+  padding: 15px 20px;
+  color: #333;
+  vertical-align: middle;
+}
+
+/* Center align the pricing columns (2nd and 3rd) */
+.fee-table td:nth-child(2),
+.fee-table td:nth-child(3) {
+  text-align: center;
+  font-weight: 500;
+  color: #003366; /* Blue text for prices */
+}
+
+/* Left align the Category column (1st) */
+.fee-table td:first-child {
+  text-align: left;
+  font-weight: 600; /* Bold category names */
+  color: #444;
+  border-left: 5px solid transparent; /* invisible border for hover effect */
+}
+
+
+
+
+
+/* --- Video Card Styling --- */
+
+/* The container for the video and text */
+.video-card {
+  background: #ffffff;
+  border-radius: 12px;       /* Smooth rounded corners */
+  overflow: hidden;          /* Ensures video respects the rounded corners */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation settings */
+  height: 100%;              /* Ensures cards are same height */
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+/* Hover Effect: Lifts the card up */
+.video-card:hover {
+  transform: translateY(-8px); /* Moves up 8 pixels */
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15); /* Shadow gets deeper */
+}
+
+/* The Text Description */
+.video-desc {
+  padding: 15px;
+  text-align: center;
+  font-weight: 600;
+  color: #333;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fff;
+  border-top: 1px solid #f0f0f0;
+}
+
+
+
+
+/* --- Travel Section Icons --- */
+.travel-card {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.travel-card:hover {
+  transform: translateY(-5px);
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.icon-box {
+  font-size: 3rem;
+  color: #003366; /* Conference Blue */
+  margin-bottom: 15px;
+}
+
+/* --- Map Container --- */
+.map-container iframe {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* --- Hostel Note Styling --- */
+.hostel-note {
+  border-left: 5px solid #ffbf00 !important; /* Yellow Accent */
+  background-color: #fffaf0 !important;
+  padding: 20px;
+  font-size: 1.1rem;
+}
+
+/* --- Hotel Cards --- */
+.hotel-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border: 1px solid #eee;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.hotel-card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  transform: translateY(-5px);
+}
+
+.hotel-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Ensures images don't stretch */
+}
+
+.hotel-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.hotel-info h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.hotel-info p {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* --- Tourism Cards --- */
+.tour-card {
+  background: #fff;
+  border-left: 4px solid #003366; /* Blue Accent */
+  padding: 20px;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  height: 100%;
+}
+
+.tour-header {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #003366;
+  margin-bottom: 8px;
+}
+
+
+
+/* --- Premium Horizontal Hotel Cards --- */
+
+/* 1. The Card Container */
+.hotel-list-row {
+  background: #ffffff;
+  border-radius: 16px; /* Smooth, modern rounded corners */
+  padding: 25px 30px;
+  margin-bottom: 25px; /* Replaces the <hr> divider with clean spacing */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04); /* Elegant, soft shadow */
+  border: 1px solid rgba(0,0,0,0.03);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Hover effect: lifts the card off the page */
+.hotel-list-row:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 51, 102, 0.1); 
+}
+
+/* 2. Text Formatting */
+.hotel-info-box {
+  padding-right: 15px;
+}
+
+.hotel-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #003366; /* Deep conference blue */
+  margin-bottom: 12px;
+  letter-spacing: -0.5px;
+}
+
+.hotel-meta {
+  font-size: 1.05rem;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hotel-meta .text-danger {
+  color: #e63946 !important; /* Eye-catchy red location pin */
+  font-size: 1.3rem;
+}
+
+/* 3. Image Styling & Animation */
+.hotel-img-wrapper {
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.hotel-img-horizontal {
+  width: 100%;
+  height: 180px; /* Forces all images to be the exact same height */
+  object-fit: cover; /* Prevents stretching */
+  transition: transform 0.5s ease;
+  display: block;
+}
+
+/* Subtle image zoom when hovering over the card */
+.hotel-list-row:hover .hotel-img-horizontal {
+  transform: scale(1.05); 
+}
+
+/* 4. The Action Button */
+.btn-location {
+  background: linear-gradient(135deg, #28a745 0%, #218838 100%); /* Green Gradient */
+  color: white !important;
+  padding: 12px 25px;
+  border-radius: 50px; /* Modern pill shape */
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3); /* Green glow */
+  transition: all 0.3s ease;
+}
+
+.btn-location:hover {
+  background: linear-gradient(135deg, #218838 0%, #1e7e34 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
+}
+
+
+
+/* ==========================================================================
+   PLACES TO SEE NEARBY CARDS
+   ========================================================================== */
+
+.places-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.places-img-wrapper {
+  position: relative;
+  width: 100%;
+  border-radius: 12px 12px 0 0; /* Match rounding on top edges */
+  overflow: hidden; /* Prevent image from spilling over border radius */
+}
+
+/* Ensure images fill the container uniformly */
+.places-img-wrapper img {
+  width: 100%;
+  height: 250px; /* Fixed height for uniformity */
+  object-fit: cover;
+  display: block; /* Remove default inline spacing */
+}
+
+/* Dark gradient overlay at the bottom of the image */
+.places-img-wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%; /* Gradient height */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  pointer-events: none; /* Allow clicks to pass through if needed later */
+}
+
+/* Text overlay on image */
+.places-header {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  z-index: 1; /* Ensure text is above the gradient */
+}
+
+/* Text body below image */
+.places-body {
+  padding: 20px 0;
+}
+
+.places-body p {
+  text-align: justify;
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+
+
+/* ==========================================================================
+   COMMITTEE PROFILE CARDS (Asymmetrical Clone)
+   ========================================================================== */
+
+.committee-profile-card {
+  background-color: #ffffff;
+  border-radius: 40px 40px 40px 12px; /* Distinctive leaf shape */
+  padding: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.committee-profile-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+}
+
+.profile-img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 30px 30px 30px 10px; /* Matches outer shape */
+  margin-bottom: 15px;
+}
+
+.profile-content {
+  padding: 0 10px 10px 10px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-name {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.profile-role {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.btn-know-more {
+  background-color: #fca311;
+  color: #ffffff !important;
+  padding: 8px 22px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  align-self: flex-start;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-know-more:hover {
+  background-color: #e59005;
+  transform: translateX(3px); /* Subtle slide-right */
+}
+

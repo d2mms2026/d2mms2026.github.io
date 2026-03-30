@@ -1,0 +1,54 @@
+---
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    page-layout: full
+    toc: false
+---
+
+::: page-header
+# Keynote Speakers
+:::
+
+::: {.grid .g-4}
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+
+```{=html}
+<div class="committee-profile-card">
+  <img src="images/Francescob.jpg" alt="Prof Name" class="profile-img">
+  <div class="profile-content">
+    <h3 class="profile-name">Prof. Francesco Ballarin</h3>
+    <p class="profile-role">
+      Università Cattolica del Sacro Cuore<br>
+      Associate Professor
+    </p>
+    <a href="https://www.francescoballarin.it/" class="btn-know-more">Know More <i class="bi bi-arrow-right"></i></a>
+  </div>
+</div>
+```
+:::
+
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+```{=html}
+<div class="committee-profile-card">
+  <img src="images/Giovanni.webp" alt="Prof Name" class="profile-img">
+  <div class="profile-content">
+    <h3 class="profile-name">Prof. Giovanni Stabile</h3>
+    <p class="profile-role">
+      Sant'Anna School of Advanced Studies<br>
+      Associate Professor
+    </p>
+    <a href="https://www.giovannistabile.com/" class="btn-know-more">Know More <i class="bi bi-arrow-right"></i></a>
+  </div>
+</div>
+```
+:::
+
+:::
+
+

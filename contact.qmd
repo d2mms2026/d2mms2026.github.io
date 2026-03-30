@@ -1,0 +1,81 @@
+---
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    page-layout: full
+    toc: false
+---
+
+::: page-header
+# CONTACT
+:::
+
+```{=html}
+<div class="container" style="margin-bottom: 5rem;">
+  
+  <div class="grid" style="gap: 2rem;">
+
+    <div class="g-col-12 g-col-md-6">
+      <div class="card-box h-100">
+        
+        <h3 class="card-header">Reach Us</h3>
+        
+        <div class="contact-info">
+          <div class="info-item">
+            <div class="icon-circle">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div>
+              <strong>Address</strong>
+              <p class="text-muted">IIT(ISM) Dhanbad, Jharkhand, India</p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div class="icon-circle">
+              <i class="bi bi-envelope-fill"></i>
+            </div>
+            <div>
+              <strong>Email</strong>
+              <p class="text-muted">d2mms.2026@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="map-wrapper">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.135144812497!2d86.43776707533789!3d23.813792878627236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6bc9f5e3682c3%3A0x8f5db12505596ae3!2sDepartment%20Of%20Mechanical%20Engineering!5e0!3m2!1sen!2sin!4v1771253472783!5m2!1sen!2sin" width="450" height="300" style="border:0;" allowfullscreen="" loading="fast" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="g-col-12 g-col-md-6">
+      <div class="card-box h-100">
+        
+        <h3 class="card-header">Send a Message</h3>
+
+        <form action="#" method="post" class="custom-form">
+          <div class="mb-3">
+            <input type="text" name="name" placeholder="NAME" required>
+          </div>
+          
+          <div class="mb-3">
+            <input type="email" name="email" placeholder="EMAIL" required>
+          </div>
+          
+          <div class="mb-3">
+            <textarea name="message" placeholder="MESSAGE" rows="8" required></textarea>
+          </div>
+          
+          <button type="submit" class="submit-btn">SUBMIT</button>
+        </form>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+```

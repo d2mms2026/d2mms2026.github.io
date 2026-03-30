@@ -1,0 +1,136 @@
+/* custom.scss */
+
+/* --- Variables for colors matching the image --- */
+$dark-blue-text: #003366;
+$header-bg: #ffffff;
+
+/* --- Styling the Custom Header HTML --- */
+.custom-header-container {
+  background-color: $header-bg;
+  padding: 20px 15px 5px 15px; /* Padding top/sides, less on bottom */
+  text-align: center;
+  /* Use Bootstrap mixin to center content within reasonable width */
+  @include make-container(); 
+  max-width: 1320px; /* Adjust based on preference */
+}
+
+.header-main-title {
+  color: $dark-blue-text;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  /* Ensure font matches reference (looks like a standard sans-serif) */
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.header-subtitle {
+  color: $dark-blue-text;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* --- Styling the Quarto Standard Navbar to blend in --- */
+.navbar {
+  /* Remove standard borders and shadows so it blends with header above */
+  border: none !important;
+  box-shadow: none !important;
+  padding-top: 0 !important; /* Pull it up towards the subtitle */
+  margin-top: 0 !important;
+}
+
+.navbar-nav .nav-link {
+    /* Match font size and color of links */
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #13E86F !important;
+}
+
+
+
+
+
+
+
+---
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    page-layout: full
+    toc: false
+---
+
+
+
+:::::::::: video-card
+::: video-title-badge
+ICVAM-2026
+:::
+
+:::::::: video-content
+<video autoplay loop muted playsinline>
+
+<source src="videos/website movie.mp4" type="video/mp4">
+
+</video>
+
+:::
+
+:::::::::::::::
+
+::::::: grid
+::: {.g-col-12 .g-col-md-8}
+## About IIT(ISM) Dhanbad
+
+Established in 1926, IIT(ISM) Dhanbad is located in India’s coking coal belt, 260 km from Kolkata and 150 km from Ranchi. Spanning 393 acres, it offers world class facilities across 17 departments, providing courses in Engineering, Sciences, Management and Humanities. IIT(ISM) Dhanbad has played a vital role in the growth and development of India’s mining, mineral and petroleum sectors. The institute holds a global rank of 20th and a national rank of 1st in Mineral and Mining Engineering (QS-2025) and an NIRF ranking of 15th in Engineering for the year 2024. To know more about IIT(ISM) Dhanbad, kindly visit IIT(ISM) Dhanbad.
+
+## About the Department
+
+The Department of Mechanical Engineering, established in 1999, has celebrated 25 years of excellence and is the largest department in the institute with 45 faculty members. It offers two undergraduate courses: Mechanical Engineering and Mining Machinery Engineering. Faculty and students collaborate on research in areas like microfluidics, robotics, renewable energy, R&AC, biofluid mechanics, aeroacoustics and more. Students engage in the Robotics Club, Smart Manufacturing, ASME chapter and other professional bodies. The department oversees many R&D projects with student involvement in national and international research and consultancy. To know more about ME department, kindly visit ME, IIT(ISM) Dhanbad.
+
+[**Call for Papers**](authors.qmd){.btn .btn-primary .btn-lg role="button"} [**SMDC Flyer**](smdc.qmd){.btn .btn-outline-primary .btn-lg role="button"}
+:::
+
+::::: {.g-col-12 .g-col-md-4}
+::: date-box
+<h3>Important Dates</h3>
+
+<ul>
+
+<li><strong>Full Paper Submission</strong> July 31, 2025</li>
+
+<li><strong>Notification of Decision</strong> September 30, 2025</li>
+
+<li><strong>Camera-Ready Paper</strong> October 15, 2025</li>
+
+<li><strong>Early Bird Registration</strong> October 29, 2025</li>
+
+</ul>
+:::
+
+::: date-box
+<h3>SMDC Dates</h3>
+
+<ul>
+
+<li><strong>Initial Proposal</strong> June 6, 2025</li>
+
+<li><strong>Detailed Design</strong> September 14, 2025</li>
+
+<li><strong>Final Demonstration</strong> Dec 7–10, 2025</li>
+
+</ul>
+:::
+:::::
+:::::::
+::::::::
+::::::::::
