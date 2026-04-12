@@ -913,3 +913,216 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(230, 57, 70, 0.3);
 }
+
+
+/* =========================================================
+   11. PAYMENT DETAILS SECTION
+   ========================================================= */
+
+/* Main Title with lines on sides */
+.payment-title-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.payment-title-container::before,
+.payment-title-container::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.payment-title-container::before {
+  margin-right: 1.5em;
+}
+
+.payment-title-container::after {
+  margin-left: 1.5em;
+}
+
+.payment-main-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Main Outline Card */
+.payment-card {
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+  margin-bottom: 2rem;
+}
+
+/* Headers */
+.payment-header {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #4a5568; /* Slate gray matching the image */
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.payment-subheader {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #2d3748;
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+/* Bank Details List */
+.bank-details-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.bank-details-list li {
+  font-size: 1.05rem;
+  color: #4a5568;
+  margin-bottom: 8px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.bank-details-list li strong {
+  color: #2d3748;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+/* Divider Line */
+.payment-divider {
+  border: 0;
+  border-top: 1px solid #e2e8f0;
+  margin: 25px 0;
+  opacity: 1;
+}
+
+/* Bulleted Instructions */
+.payment-instructions {
+  font-family: 'Lato', sans-serif;
+  color: #4a5568;
+  padding-left: 20px;
+  text-align: left;
+  margin: 0;
+}
+
+.payment-instructions li {
+  margin-bottom: 12px;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+/* --- Right Side: QR Code Styling --- */
+.qr-container-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qr-box {
+  background-color: #f8f9fa; /* Light gray box behind the phone */
+  border: 1px solid #f1f1f1;
+  border-radius: 12px;
+  padding: 35px 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* --- Mobile Phone QR Mockup --- */
+.phone-frame {
+  width: 220px;
+  background-color: #5c4033; /* Dark brown frame */
+  border-radius: 24px;
+  padding: 12px 8px 16px 8px; 
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone-speaker {
+  width: 45px;
+  height: 4px;
+  background-color: #3e2723;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.phone-screen {
+  width: 100%;
+  background-color: #baddf0; /* Soft blue background */
+  border-radius: 4px;
+  padding: 15px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  border: 2px solid #3e2723;
+}
+
+.qr-img-wrapper {
+  background: white;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.phone-qr-img {
+  width: 100%;
+  display: block;
+}
+
+.upi-text {
+  background-color: #cfd6d8; /* Grayish background for the ID */
+  border: 1px solid #a0aab0;
+  width: 100%;
+  font-family: 'Times New Roman', serif; /* Matches the serif font in the image */
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #000;
+  padding: 4px 0;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.phone-scan-btn {
+  background-color: #004d66; /* Dark teal button */
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 6px 25px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.phone-home-btn {
+  width: 35px;
+  height: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  border-radius: 10px;
+  margin-top: 12px;
+}
