@@ -17,14 +17,14 @@ format:
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ```{=html}
 <div class="committee-profile-card">
-  <img src="images/Francescob.jpg" alt="Prof Name" class="profile-img">
+  <img src="images/ChristopherRackauckas.png" alt="Prof Name" class="profile-img">
   <div class="profile-content">
-    <h3 class="profile-name">Prof. Francesco Ballarin</h3>
+    <h3 class="profile-name">Dr. Chris Rackauckas </h3>
     <p class="profile-role">
-      Università Cattolica del Sacro Cuore<br>
-      Associate Professor
+      Massachusetts Institute of Technology<br>
+      Research Affiliate
     </p>
-    <a href="https://www.francescoballarin.it/" class="btn-know-more">Know More <i class="bi bi-arrow-right"></i></a>
+    <a href="https://chrisrackauckas.com/" class="btn-know-more">Know More <i class="bi bi-arrow-right"></i></a>
   </div>
 </div>
 ```
@@ -49,14 +49,14 @@ format:
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ```{=html}
 <div class="committee-profile-card">
-  <img src="images/ChristopherRackauckas.png" alt="Prof Name" class="profile-img">
+  <img src="images/Francescob.jpg" alt="Prof Name" class="profile-img">
   <div class="profile-content">
-    <h3 class="profile-name">Dr. Chris Rackauckas </h3>
+    <h3 class="profile-name">Prof. Francesco Ballarin</h3>
     <p class="profile-role">
-      Massachusetts Institute of Technology<br>
-      Research Affiliate
+      Università Cattolica del Sacro Cuore<br>
+      Associate Professor
     </p>
-    <a href="https://chrisrackauckas.com/" class="btn-know-more">Know More <i class="bi bi-arrow-right"></i></a>
+    <a href="https://www.francescoballarin.it/" class="btn-know-more">Know More <i class="bi bi-arrow-right"></i></a>
   </div>
 </div>
 ```
