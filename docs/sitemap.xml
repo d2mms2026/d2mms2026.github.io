@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://d2mms2026.github.io/travels.html</loc>
+    <lastmod>2026-03-03T13:25:33.570Z</lastmod>
+  </url>
+  <url>
+    <loc>https://d2mms2026.github.io/sponsorship.html</loc>
+    <lastmod>2026-02-16T15:34:23.901Z</lastmod>
+  </url>
+  <url>
+    <loc>https://d2mms2026.github.io/registration.html</loc>
+    <lastmod>2026-04-13T08:07:33.725Z</lastmod>
+  </url>
+  <url>
     <loc>https://d2mms2026.github.io/index.html</loc>
     <lastmod>2026-04-12T16:27:40.161Z</lastmod>
   </url>
@@ -9,23 +21,23 @@
     <lastmod>2026-03-28T14:15:10.941Z</lastmod>
   </url>
   <url>
-    <loc>https://d2mms2026.github.io/programme.html</loc>
-    <lastmod>2026-04-12T10:50:25.538Z</lastmod>
-  </url>
-  <url>
-    <loc>https://d2mms2026.github.io/speakers.html</loc>
-    <lastmod>2026-04-12T16:20:02.567Z</lastmod>
-  </url>
-  <url>
-    <loc>https://d2mms2026.github.io/travels.html</loc>
-    <lastmod>2026-03-03T13:25:33.570Z</lastmod>
+    <loc>https://d2mms2026.github.io/callforposters.html</loc>
+    <lastmod>2026-04-13T08:07:08.720Z</lastmod>
   </url>
   <url>
     <loc>https://d2mms2026.github.io/contact.html</loc>
     <lastmod>2026-03-30T08:57:13.446Z</lastmod>
   </url>
   <url>
-    <loc>https://d2mms2026.github.io/registration.html</loc>
-    <lastmod>2026-04-12T14:08:44.681Z</lastmod>
+    <loc>https://d2mms2026.github.io/programme.html</loc>
+    <lastmod>2026-04-12T10:50:25.538Z</lastmod>
+  </url>
+  <url>
+    <loc>https://d2mms2026.github.io/speakers.html</loc>
+    <lastmod>2026-04-13T08:11:13.726Z</lastmod>
+  </url>
+  <url>
+    <loc>https://d2mms2026.github.io/submission.html</loc>
+    <lastmod>2026-02-16T15:35:04.400Z</lastmod>
   </url>
 </urlset>

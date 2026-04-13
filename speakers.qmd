@@ -9,9 +9,9 @@ format:
     toc: false
 ---
 
-::: page-header
-# Keynote Speakers
-:::
+
+## Keynote Address
+
 
 ::::: {.grid .g-4}
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
@@ -29,7 +29,12 @@ format:
 </div>
 ```
 :::
+:::::
 
+
+## Speakers
+
+::::: {.grid .g-4}
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ```{=html}
 <div class="committee-profile-card">
