@@ -12,7 +12,7 @@ format:
 # SPONSORSHIP
 :::
 
-::: {.section-spacer .mx-auto style="max-width: 900px;"}
+:::: {.section-spacer .mx-auto style="max-width: 900px;"}
 ```{=html}
 <p class="fs-5 text-dark mb-4 text-justify" style="line-height: 1.8;">
   <strong>We are actively looking for Sponsors and Industry partners</strong> for the Data-driven Modelling for Mechanical Systems Summer School 2026 — a five-day international hybrid event at IIT (ISM) Dhanbad. This event brings together delegates, leading academic researchers, and emerging engineers from across the country and abroad. 
@@ -22,6 +22,7 @@ format:
   This is a direct opportunity to place your brand at the forefront of scientific machine learning, computational mechanics, digital twins, and reduced-order modeling in India. By partnering with us, you gain direct access to a highly specialized talent pool and establish your organization as a leader in next-generation engineering methodologies.
 </p>
 ```
+
 ::: {.bg-dark .rounded-4 .p-5 .shadow-lg .mt-5 .d-flex .flex-column .flex-md-row .align-items-center .justify-content-between .gap-4}
 ```{=html}
 <div class="text-start flex-grow-1">
@@ -36,8 +37,6 @@ format:
     <a href="mailto:d2mms.2026@gmail.com" class="text-white text-decoration-none fw-bold fs-6 ms-md-2">d2mms.2026@gmail.com</a>
   </div>
 </div>
-
 ```
 :::
-
-:::
+::::
