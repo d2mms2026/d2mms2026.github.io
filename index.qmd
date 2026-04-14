@@ -15,7 +15,8 @@ format:
 An international hybrid workshop and summer school exploring the intersection of physics-based simulation and data-driven methods, organized by the Department of Mechanical Engineering. This five-day event provides a structured platform to master the growing role of data-driven approaches in mechanical engineering. Through a blend of expert-led lectures, tutorial sessions, and hands-on components, participants will explore the mathematical, computational, and practical applications of modern modeling tools.
 
 ::: {.mt-4 .p-3 .bg-light .rounded style="border-left: 4px solid #003366;"}
-**Core Topics Include:** Scientific machine learning, computational mechanics, computational fluid dynamics (CFD), reduced-order modeling, digital twins, and high-fidelity simulations.
+**Core Topics Include:** Computational fluid dynamics (CFD), Computational mechanics, Digital twins, High-fidelity simulations, Reduced-order modeling, Robotics, Scientific machine learning.
+
 :::
 ::::
 
