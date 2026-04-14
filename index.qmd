@@ -7,9 +7,9 @@ format:
 
 ![](images/iit-campus.gif){.hero-gif}
 
-:::::::::: section-spacer
-::::::::: grid
-::: {.g-col-12 .g-col-md-8 .justify-text .mb-2 .pe-md-4}
+::::::::::: section-spacer
+:::::::::: grid
+:::: {.g-col-12 .g-col-md-8 .justify-text .mb-2 .pe-md-4}
 ## About the Program
 
 An international hybrid workshop and summer school exploring the intersection of physics-based simulation and data-driven methods, organized by the Department of Mechanical Engineering. This five-day event provides a structured platform to master the growing role of data-driven approaches in mechanical engineering. Through a blend of expert-led lectures, tutorial sessions, and hands-on components, participants will explore the mathematical, computational, and practical applications of modern modeling tools.
@@ -17,7 +17,7 @@ An international hybrid workshop and summer school exploring the intersection of
 ::: {.mt-4 .p-3 .bg-light .rounded style="border-left: 4px solid #003366;"}
 **Core Topics Include:** Scientific machine learning, computational mechanics, computational fluid dynamics (CFD), reduced-order modeling, digital twins, and high-fidelity simulations.
 :::
-:::
+::::
 
 :::: {.g-col-12 .g-col-md-4}
 ::: {.timeline-card .p-4 .h-100}
@@ -59,11 +59,11 @@ This hybrid event welcomes \~100 national delegates (in-person) and internationa
 *Ideal for those interested in the analysis, design, prediction, monitoring, and control of mechanical systems.*
 
 ::: mt-4
-<a href="https://forms.gle/SKYbnJTSXGxyU7Ec7" class="btn btn-primary btn-lg px-5 py-3 shadow-sm btn-hover-lift" style="border-radius: 50px; font-weight: 500; font-size: 1.1rem;">Apply Now <i class="bi bi-arrow-right ms-2"></i></a>
+<a href="https://forms.gle/SKYbnJTSXGxyU7Ec7" class="btn btn-primary btn-lg px-5 py-3 shadow-sm btn-hover-lift" style="border-radius: 50px; font-weight: 500; font-size: 1.1rem;">Register Now <i class="bi bi-arrow-right ms-2"></i></a>
 :::
 ::::
-:::::::::
 ::::::::::
+:::::::::::
 
 :::::::::: {.section-spacer .bg-very-light .py-5 .rounded-4}
 ## Key Takeaways & Benefits
