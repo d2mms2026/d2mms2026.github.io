@@ -14,7 +14,9 @@ format:
 
 ::: {.section-spacer .mx-auto style="max-width: 850px;"}
 <p class="fs-5 text-dark mb-5" style="line-height: 1.8; text-align: justify;">
-  The summer school invites abstracts from faculty, students, scientists, researchers, and industry professionals. Each abstract should be <strong>2-pages</strong>, presenting original academic or industrial research. Submissions should ideally align with the key themes and relevant areas outlined, though other topics are also welcome.
+  The summer school invites abstracts for poster presentation from faculty, students, scientists, researchers, and industry professionals. Each abstract should be <strong>2 pages</strong>, presenting original academic or industrial research. Submissions should ideally align with the key themes and relevant areas of the summer school. Only top 10 submissions will be selected for poster presentation.<br>
+
+<strong>Note:</strong> One can submit more than one abstract using the same payment details.
 </p>
 :::
 
