@@ -61,7 +61,7 @@ This hybrid event welcomes \~100 national delegates (in-person) and internationa
 *Ideal for those interested in the analysis, design, prediction, monitoring, and control of mechanical systems.*
 
 ::: mt-4
-<a href="https://forms.gle/SKYbnJTSXGxyU7Ec7" class="btn btn-primary btn-lg px-5 py-3 shadow-sm btn-hover-lift" style="border-radius: 50px; font-weight: 500; font-size: 1.1rem;">Register Now <i class="bi bi-arrow-right ms-2"></i></a>
+<a href="https://forms.gle/k3E9MrypstGnBtA36" class="btn btn-primary btn-lg px-5 py-3 shadow-sm btn-hover-lift" style="border-radius: 50px; font-weight: 500; font-size: 1.1rem;">Register Now <i class="bi bi-arrow-right ms-2"></i></a>
 :::
 ::::
 ::::::::::

@@ -12,4 +12,43 @@ format:
 # Call for Posters
 :::
 
-The summer school invites abstract from faculty, students,scientists, researchers and industry professionals. Each abstract should be 200-250 words, presenting original academic or industrial research. Submissions should ideally align with the key themes and relevant areas outlined, though other topics are also welcome.
+::: {.section-spacer .mx-auto style="max-width: 850px;"}
+<p class="fs-5 text-dark mb-5" style="line-height: 1.8; text-align: justify;">
+  The summer school invites abstracts from faculty, students, scientists, researchers, and industry professionals. Each abstract should be <strong>2-pages</strong>, presenting original academic or industrial research. Submissions should ideally align with the key themes and relevant areas outlined, though other topics are also welcome.
+</p>
+:::
+
+::: {.grid .justify-content-center .gap-4 .mb-5}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.glass-card .p-4 .text-center .h-100 .d-flex .flex-column .align-items-center .shadow-sm}
+<div class="display-4 text-maroon mb-3">
+  <i class="bi bi-filetype-tex"></i>
+</div>
+<h3 class="h5 font-weight-bold text-navy mb-3 normal-case tracking-normal">LaTeX Template</h3>
+<p class="text-muted small mb-4 px-2">Download the official LaTeX template folder (.zip) formatted specifically for the summer school poster submissions.</p>
+
+<a href="https://drive.google.com/file/d/1kHyuSdcoTWdopHdsqaJasZVrP-jaqnxM/view?usp=drive_link" target="_blank" class="btn btn-outline-primary rounded-pill px-4 py-2 fw-bold mt-auto border-2 transition-colors">
+  <i class="bi bi-download me-2"></i> Get LaTeX
+</a>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.glass-card .p-4 .text-center .h-100 .d-flex .flex-column .align-items-center .shadow-sm}
+<div class="display-4 text-primary mb-3">
+</div>
+<h3 class="h5 font-weight-bold text-navy mb-3 normal-case tracking-normal">Word Template</h3>
+<p class="text-muted small mb-4 px-2">Download the official Microsoft Word (.doc / .docx) document template to prepare and format your submission.</p>
+
+<a href="https://docs.google.com/document/d/1iSpdxTAxFSmv-4k0JwMaZNznrMeZQHeV/edit?usp=drive_link&ouid=111141331941981534273&rtpof=true&sd=true" target="_blank" class="btn btn-outline-primary rounded-pill px-4 py-2 fw-bold mt-auto border-2 transition-colors">
+  <i class="bi bi-download me-2"></i> Get Word Doc
+</a>
+:::
+:::
+
+:::
+
+::: mt-4
+<a href="https://forms.gle/ChJ3LyZKvE8Ap2cQ8" class="btn btn-primary btn-lg px-5 py-3 shadow-sm btn-hover-lift" style="border-radius: 50px; font-weight: 500; font-size: 1.1rem;">Click here to submit your abstract <i class="bi bi-arrow-right ms-2"></i></a>
+:::

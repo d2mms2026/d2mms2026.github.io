@@ -15,7 +15,7 @@ format:
 ::: {.section-spacer .mx-auto style="max-width: 900px;"}
 ```{=html}
 <p class="fs-5 text-dark mb-4 text-justify" style="line-height: 1.8;">
-  <strong>We are actively looking for Sponsors and Industry partners</strong> for the Data-driven Modelling for Mechanical Systems Summer School 2026 — a five-day international hybrid event at IIT (ISM) Dhanbad. This event brings together over 100 delegates, leading academic researchers, and emerging engineers from across the country and abroad. 
+  <strong>We are actively looking for Sponsors and Industry partners</strong> for the Data-driven Modelling for Mechanical Systems Summer School 2026 — a five-day international hybrid event at IIT (ISM) Dhanbad. This event brings together delegates, leading academic researchers, and emerging engineers from across the country and abroad. 
 </p>
 
 <p class="fs-5 text-dark mb-5 text-justify" style="line-height: 1.8;">
@@ -34,8 +34,6 @@ format:
   <div class="text-light">
     <strong class="text-white tracking-widest text-uppercase" style="font-size: 0.85rem;">Contact:</strong> <br class="d-md-none">
     <a href="mailto:d2mms.2026@gmail.com" class="text-white text-decoration-none fw-bold fs-6 ms-md-2">d2mms.2026@gmail.com</a>
-    <span class="mx-3 text-secondary d-none d-md-inline">|</span> 
-    <span class="fs-6 d-block d-md-inline mt-2 mt-md-0">Sanjeev Kumar: +91 75032 26970</span>
   </div>
 </div>
 
