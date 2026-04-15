@@ -1126,3 +1126,102 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 10px;
   margin-top: 12px;
 }
+
+
+/* =========================================================
+   CONTACT DETAILS & ICONS
+   ========================================================= */
+
+/* Header Styling */
+.contact-header-container {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact-main-title {
+  font-family: 'Lato', sans-serif;
+  color: #1a3c61; /* Deep navy blue */
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.contact-divider {
+  border: 0;
+  border-top: 1px solid #f0f0f0;
+  margin: 0 auto;
+  width: 90%;
+}
+
+/* Layout for each contact row */
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+/* The Icon Circle (Matching the screenshot exactly) */
+.icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  background-color: #f4f8fa; /* Very light blue-gray */
+  color: #004d66; /* Deep teal */
+  border-radius: 50%;
+  font-size: 1.4rem;
+  flex-shrink: 0;
+  margin-right: 20px;
+  /* Soft, offset drop shadow exactly like the image */
+  box-shadow: -4px 4px 12px rgba(0, 0, 0, 0.06), 2px 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+/* Text Container & Typography */
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 55px; /* Ensures text is vertically balanced with the icon */
+}
+
+.contact-label {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #222222;
+  font-size: 1.1rem;
+  margin-bottom: 3px;
+}
+
+.contact-value {
+  font-family: 'Lato', sans-serif;
+  color: #6c757d; /* Soft slate gray */
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* Custom Link Styling for the Email */
+.contact-link {
+  color: #006b8f; /* Teal color matching the screenshot */
+  text-decoration: underline;
+  text-underline-offset: 3px; /* Pushes the underline down slightly for a cleaner look */
+}
+
+.contact-link:hover {
+  color: #004d66;
+}
+
+/* Card Container Styling */
+.card-box {
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+/* Specific to the map card to ensure the map fills the corners */
+.card-box.overflow-hidden iframe {
+  border-radius: 12px;
+  display: block; /* Removes tiny gap under the iframe */
+}
